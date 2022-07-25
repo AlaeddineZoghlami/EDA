@@ -18,3 +18,4 @@ WORKDIR /source/EDA_app_with_Streamlit_Components
 EXPOSE 8080
 #RUN chmod +x /source/EDA_app_with_Streamlit_Components/start.sh
 CMD streamlit run --server.maxUploadSize=5000 --server.port 8080 --server.enableCORS false app.py
+#http://localhost:8080/
