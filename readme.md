@@ -2,6 +2,6 @@
 cd source
 sudo docker build -t streamlitandsweetviz . 
  
-docker run -p 4000:4000 streamlitandsweetviz:latest
+docker run -p 8080:8080 streamlitandsweetviz:latest
 
 ```
